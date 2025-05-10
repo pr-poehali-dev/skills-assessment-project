@@ -20,7 +20,7 @@ const Header = () => {
           {/* Средний блок только для десктопа */}
           <div className="hidden md:block">
             <img
-              src="https://i.ibb.co/CQt116S/predbannik-logo.png"
+              src="https://i.postimg.cc/tJ66tCVk/predbannik-logo.png"
               alt="Предбанник"
               className="h-10"
             />
@@ -43,7 +43,7 @@ const Header = () => {
           {/* Логотип */}
           <Link to="/" className="flex items-center">
             <img
-              src="https://i.ibb.co/D8nkqbZ/umskul-logo.png"
+              src="https://i.postimg.cc/wB9b0KjT/umskul-logo.png"
               alt="УМСКУЛ"
               className="h-10"
             />

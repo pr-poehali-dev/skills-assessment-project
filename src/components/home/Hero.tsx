@@ -48,7 +48,7 @@ const Hero = () => {
                 </p>
               </div>
               <img 
-                src="https://i.ibb.co/cDKQVg4/laptop-orange.png" 
+                src="https://i.postimg.cc/qMY2tH33/laptop-orange.png" 
                 alt="Ноутбук"
                 className="w-24 h-24 object-contain"
               />
@@ -116,7 +116,7 @@ const Hero = () => {
                 </p>
               </div>
               <img 
-                src="https://i.ibb.co/PWbpTpW/desktop-orange.png" 
+                src="https://i.postimg.cc/NFpbsLSf/desktop-orange.png" 
                 alt="Компьютер" 
                 className="w-24 h-24 object-contain" 
               />
@@ -171,7 +171,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://i.ibb.co/KKkwXxP/number-11-3d.png"
+                src="https://i.postimg.cc/j54cQHVv/number-11-3d.png"
                 alt="ЕГЭ 11 класс"
                 className="w-full h-full object-contain"
               />
@@ -189,7 +189,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://i.ibb.co/hZg4Cd5/number-10-3d.png"
+                src="https://i.postimg.cc/tCnQJzcB/number-10-3d.png"
                 alt="ЕГЭ 10 класс"
                 className="w-full h-full object-contain"
               />
@@ -207,7 +207,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://i.ibb.co/YW8k7yR/number-9-3d.png"
+                src="https://i.postimg.cc/XqdMnhJW/number-9-3d.png"
                 alt="ОГЭ 9 класс"
                 className="w-full h-full object-contain"
               />
@@ -228,7 +228,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://i.ibb.co/LJmS4VK/backpack-3d.png"
+                src="https://i.postimg.cc/L8jhnKJy/backpack-3d.png"
                 alt="5-8 классы"
                 className="w-full h-full object-contain"
               />
@@ -246,7 +246,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://i.ibb.co/s9c03j1/medal-3d.png"
+                src="https://i.postimg.cc/GpkmQRBZ/medal-3d.png"
                 alt="Олимпиады"
                 className="w-full h-full object-contain"
               />
@@ -264,7 +264,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://i.ibb.co/3dTjSwF/laptop-3d.png"
+                src="https://i.postimg.cc/c4WnJcJm/laptop-3d.png"
                 alt="Репетиторы"
                 className="w-full h-full object-contain"
               />
@@ -284,4 +284,3 @@ const Hero = () => {
 };
 
 export default Hero;
-</script>
