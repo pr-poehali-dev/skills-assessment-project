@@ -1,6 +1,6 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
-import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
@@ -19,33 +19,57 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Левая колонка - Финальный курс */}
-          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">
-              Предэкзаменационный курс
-            </h3>
-            <p className="text-gray-700 mb-4">
-              Для тех, кто хочет повторить 100% материала ЕГЭ/ОГЭ и проработать
-              все типы заданий
-            </p>
+        {/* Заголовок для всего раздела */}
+        <h2 className="text-4xl font-bold text-center mb-12">
+          Подготовка, которая подойдет всем
+        </h2>
 
-            <div className="space-y-3 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+          {/* Левая колонка - Предбанник */}
+          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+            <div className="flex flex-wrap gap-3 mb-3">
+              <span className="inline-block bg-gray-100 text-gray-800 rounded-md px-3 py-1 text-sm">
+                Набор на май
+              </span>
+              <span className="inline-block bg-green-100 text-green-800 rounded-full px-4 py-1 text-sm">
+                Для тех, кто сдаёт в этом году
+              </span>
+            </div>
+
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Предбанник
+            </h3>
+
+            <div className="flex items-start gap-5 mb-6">
+              <div className="flex-1">
+                <p className="text-gray-700 mb-4">
+                  Для тех, кто хочет повторить 100% материала ЕГЭ/ОГЭ и проработать все
+                  типы заданий
+                </p>
+              </div>
+              <img 
+                src="https://i.ibb.co/cDKQVg4/laptop-orange.png" 
+                alt="Ноутбук"
+                className="w-24 h-24 object-contain"
+              />
+            </div>
+
+            <div className="space-y-4 mb-6">
               <div className="flex items-start">
-                <span className="text-gray-400 mr-2">—</span>
+                <span className="text-gray-400 font-medium mr-2">—</span>
                 <div>
                   <p className="font-medium text-gray-800">
                     Финальный курс перед экзаменом
                   </p>
                   <p className="text-sm text-gray-600">
-                    Последняя возможность повысить свой результат, набрать
+                    Последняя возможность повлиять на свой результат, набрать
                     высокие баллы и поступить на бюджет
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <span className="text-gray-400 mr-2">—</span>
+                <span className="text-gray-400 font-medium mr-2">—</span>
                 <div>
                   <p className="font-medium text-gray-800">
                     Минимум воды, максимум практики
@@ -63,25 +87,44 @@ const Hero = () => {
                 Выбрать курс
               </Button>
               <div className="text-right">
-                <p className="text-sm text-gray-500">от 582 ₽ в рассрочку</p>
-                <p className="text-xs text-gray-400">от 3 790 ₽ за весь курс</p>
+                <p className="font-medium">от 582 ₽ в рассрочку</p>
+                <p className="text-sm text-gray-500">от 3 790 ₽ за весь курс</p>
               </div>
             </div>
           </div>
 
           {/* Правая колонка - Основной курс */}
           <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">
+            <div className="flex flex-wrap gap-3 mb-3">
+              <span className="inline-block bg-gray-100 text-gray-800 rounded-md px-3 py-1 text-sm">
+                Летняя подготовка в подарок
+              </span>
+              <span className="inline-block bg-green-100 text-green-800 rounded-full px-4 py-1 text-sm">
+                Для тех, кто сдаёт в следующем году
+              </span>
+            </div>
+
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Основной курс 2025/2026
             </h3>
-            <p className="text-gray-700 mb-4">
-              Для учеников, которые хотят выгодно записаться на подготовку в
-              следующем учебном году
-            </p>
 
-            <div className="space-y-3 mb-6">
+            <div className="flex items-start gap-5 mb-6">
+              <div className="flex-1">
+                <p className="text-gray-700 mb-4">
+                  Для учеников, которые хотят выгодно записаться на подготовку в
+                  следующем учебном году
+                </p>
+              </div>
+              <img 
+                src="https://i.ibb.co/PWbpTpW/desktop-orange.png" 
+                alt="Компьютер" 
+                className="w-24 h-24 object-contain" 
+              />
+            </div>
+
+            <div className="space-y-4 mb-6">
               <div className="flex items-start">
-                <span className="text-gray-400 mr-2">—</span>
+                <span className="text-gray-400 font-medium mr-2">—</span>
                 <div>
                   <p className="font-medium text-gray-800">
                     Выгодная стоимость
@@ -93,14 +136,13 @@ const Hero = () => {
               </div>
 
               <div className="flex items-start">
-                <span className="text-gray-400 mr-2">—</span>
+                <span className="text-gray-400 font-medium mr-2">—</span>
                 <div>
                   <p className="font-medium text-gray-800">
                     Уроки в формате вебинаров
                   </p>
                   <p className="text-sm text-gray-600">
-                    Занятия делятся на теоретические и практические. Будет
-                    возможность задать вопросы в чат во время урока!
+                    Занятия делятся на теоретические и практические. Будет возможность задать вопросы в чат во время урока!
                   </p>
                 </div>
               </div>
@@ -111,10 +153,8 @@ const Hero = () => {
                 Выбрать курс
               </Button>
               <div className="text-right">
-                <p className="text-sm text-gray-500">от 3 790 ₽/мес.</p>
-                <p className="text-xs text-gray-400">
-                  от 28 000 ₽ за весь курс
-                </p>
+                <p className="font-medium">от 3 790 ₽/мес.</p>
+                <p className="text-sm text-gray-500">от 28 365 ₽ за весь курс</p>
               </div>
             </div>
           </div>
@@ -131,7 +171,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://via.placeholder.com/120/ff4455/ffffff?text=11"
+                src="https://i.ibb.co/KKkwXxP/number-11-3d.png"
                 alt="ЕГЭ 11 класс"
                 className="w-full h-full object-contain"
               />
@@ -149,7 +189,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://via.placeholder.com/120/44cc88/ffffff?text=10"
+                src="https://i.ibb.co/hZg4Cd5/number-10-3d.png"
                 alt="ЕГЭ 10 класс"
                 className="w-full h-full object-contain"
               />
@@ -167,7 +207,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://via.placeholder.com/120/44aaff/ffffff?text=9"
+                src="https://i.ibb.co/YW8k7yR/number-9-3d.png"
                 alt="ОГЭ 9 класс"
                 className="w-full h-full object-contain"
               />
@@ -188,7 +228,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://via.placeholder.com/120/5577ff/ffffff?text=5-8"
+                src="https://i.ibb.co/LJmS4VK/backpack-3d.png"
                 alt="5-8 классы"
                 className="w-full h-full object-contain"
               />
@@ -206,7 +246,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://via.placeholder.com/120/ffcc44/ffffff?text=O"
+                src="https://i.ibb.co/s9c03j1/medal-3d.png"
                 alt="Олимпиады"
                 className="w-full h-full object-contain"
               />
@@ -224,7 +264,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto mb-6">
               <img
-                src="https://via.placeholder.com/120/ff8844/ffffff?text=P"
+                src="https://i.ibb.co/3dTjSwF/laptop-3d.png"
                 alt="Репетиторы"
                 className="w-full h-full object-contain"
               />
@@ -244,3 +284,4 @@ const Hero = () => {
 };
 
 export default Hero;
+</script>

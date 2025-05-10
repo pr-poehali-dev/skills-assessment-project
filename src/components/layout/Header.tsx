@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -19,7 +20,7 @@ const Header = () => {
           {/* Средний блок только для десктопа */}
           <div className="hidden md:block">
             <img
-              src="https://via.placeholder.com/120x40/ffffff/000000?text=ПРЕДБАННИК"
+              src="https://i.ibb.co/CQt116S/predbannik-logo.png"
               alt="Предбанник"
               className="h-10"
             />
@@ -42,7 +43,7 @@ const Header = () => {
           {/* Логотип */}
           <Link to="/" className="flex items-center">
             <img
-              src="https://via.placeholder.com/120x40/ffffff/000000?text=УМСКУЛ"
+              src="https://i.ibb.co/D8nkqbZ/umskul-logo.png"
               alt="УМСКУЛ"
               className="h-10"
             />
